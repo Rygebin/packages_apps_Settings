@@ -213,7 +213,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
 
     private static final String PACKAGE_MIME_TYPE = "application/vnd.android.package-archive";
 
-    private static final String TERMINAL_APP_PACKAGE = "com.android.terminal";
+    private static final String TERMINAL_APP_PACKAGE = "com.android.shell";
 
     private static final String KEY_CONVERT_FBE = "convert_to_file_encryption";
 
