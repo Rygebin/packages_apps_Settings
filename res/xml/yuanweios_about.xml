@@ -32,7 +32,7 @@
 	    android:title="@string/changelog_yuanweios_title"
 	    android:fragment="com.android.settings.yuanweios.Changelog" />
 
-	<PreferenceScreen android:title="Donating for Hard-Working">
+	<PreferenceScreen android:title="@string/donate_jsbeyond">
 	    <intent
 	        android:action="android.intent.action.VIEW"
 	        android:data="https://www.paypal.me/jsbeyond" />
@@ -40,13 +40,17 @@
 
 	<!-- Developers -->
 	<PreferenceCategory
-	    android:key="category_yuanweios_developers"
-	    android:title="Developers">
-
+	    android:title="@string/developers_people">
+		
 	    <Preference
 	        android:title="jsbeyond"
 	        android:summary="Hello Everybody" />
+		
+	    <Preference
+	        android:title="whyle"
+	        android:summary="Hello Everybody" />
 
 	</PreferenceCategory>
+		
 
 </PreferenceScreen>
