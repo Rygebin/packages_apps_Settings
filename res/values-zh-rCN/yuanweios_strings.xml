@@ -267,6 +267,13 @@
     <!-- Changelog -->
     <string name="changelog_yuanweios_title">更新日志</string>
     <string name="changelog_yuanweios_error">找不到更新日志</string>
+     
+    <!-- Donate -->
+    <string name="donate_jsbeyond">捐助我吧！</string>
+     
+    <!-- Developers -->
+    <string name="developers_people">开发者</string>
+    
 
     <!-- About Yuanweios -->
     <string name="yuanweios_menu_about">原味的故事</string>
