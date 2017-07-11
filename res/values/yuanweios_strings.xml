@@ -265,7 +265,14 @@
     <!-- Changelog -->
     <string name="changelog_yuanweios_title">Changelog</string>
     <string name="changelog_yuanweios_error">Unable to load changelog</string>
-
+     
+    <!-- Donate -->
+    <string name="donate_jsbeyond">Donating for Hard-Working</string>
+    
+    <!-- Developers -->
+    <string name="developers_people">Developers</string>
+    
+     
     <!-- About Yuanweios -->
     <string name="yuanweios_menu_about">About Yuanweios</string>
 
