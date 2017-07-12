@@ -176,32 +176,32 @@
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
 
     <!-- Expanded desktop -->
-    <string name="power_menu_expanded_desktop">Expanded desktop</string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
-    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="power_menu_expanded_desktop">扩展桌面</string>
+    <string name="expanded_hide_nothing">不隐藏</string>
+    <string name="expanded_hide_status">隐藏状态栏</string>
+    <string name="expanded_hide_navigation">隐藏导航栏</string>
+    <string name="expanded_hide_both">全部隐藏</string>
+    <string name="expanded_nothing_to_show">要添加一个为单个应用配置的扩展状态，请关闭 “全部开启”</string>
+    <string name="expanded_desktop_state">扩展的状态</string>
+    <string name="expanded_enabled_for_all">启用全部</string>
+    <string name="expanded_user_configurable">用户配置</string>
+    <string name="expanded_desktop_style">扩展桌面的样式</string>
+    <string name="expanded_desktop_style_description">选择默认的扩展桌面样式</string>
+    <string name="expanded_desktop_title">扩展桌面选项</string>
 
     <!-- App Ops Settings -->
     <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings">App ops</string>
+    <string name="app_ops_settings">应用权柄设置</string>
     <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
-    <string name="app_ops_settings_summary">View or change app permissions</string>
+    <string name="app_ops_settings_summary">查看或修改应用权柄</string>
 
     <!-- App Ops Settings -->
     <!-- App Ops Categories -->
-    <string name="app_ops_cat_location">Location</string>
-    <string name="app_ops_cat_personal">Personal</string>
-    <string name="app_ops_cat_messaging">信息</string>
+    <string name="app_ops_cat_location">位置</string>
+    <string name="app_ops_cat_personal">个人</string>
+    <string name="app_ops_cat_messaging">短信</string>
     <string name="app_ops_cat_media">媒体</string>
-    <string name="app_ops_cat_device">机型</string>
+    <string name="app_ops_cat_device">设备</string>
 
     <!-- [CHAR LIMIT=NONE] App ops labels -->
 <string name="app_ops_access_camera">相机</string>
