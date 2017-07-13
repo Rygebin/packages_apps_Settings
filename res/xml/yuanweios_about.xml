@@ -40,6 +40,7 @@
 
 	<!-- Developers -->
 	<PreferenceCategory
+	android:key="category_yuanweios_developers"
 	    android:title="@string/developers_people">
 		
 	    <Preference
