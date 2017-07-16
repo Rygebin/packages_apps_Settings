@@ -131,44 +131,45 @@
     <string name="pulse_speed_normal">Normal</string>
     <string name="pulse_speed_slow">Slow</string>
     <string name="pulse_speed_very_slow">Very slow</string>
+     
     <!-- Lights settings screen, notification light settings -->
-    <string name="notification_light_title">Notification light</string>
-    <string name="notificationlight_title">Notification LED settings</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="notification_light_applist_title">Apps</string>
-    <string name="notification_light_phonelist_title">Phone</string>
-    <string name="notification_light_use_custom">Use custom values</string>
-    <string name="notification_light_default_value">Default</string>
-    <string name="notification_light_missed_call_title">Missed call</string>
-    <string name="notification_light_voicemail_title">Voicemail</string>
+    <string name="notification_light_title">通知指示灯</string>
+    <string name="notificationlight_title">通知指示灯设置</string>
+    <string name="notification_light_general_title">通用</string>
+    <string name="notification_light_applist_title">应用</string>
+    <string name="notification_light_phonelist_title">电话</string>
+    <string name="notification_light_use_custom">使用自定义颜色</string>
+    <string name="notification_light_default_value">默认</string>
+    <string name="notification_light_missed_call_title">未接电话</string>
+    <string name="notification_light_voicemail_title">语音信箱</string>
     <string name="notification_light_brightness" translatable="false">@string/brightness</string>
-    <string name="notification_light_screen_on">Lights with screen on</string>
-    <string name="notification_light_zen_mode">Lights in Do Not Disturb mode</string>
-    <string name="notification_light_use_multiple_leds">Multiple LEDs</string>
-    <string name="keywords_lights_brightness_level">dim leds brightness</string>
-    <string name="notification_light_automagic">Choose colors automatically</string>
+    <string name="notification_light_screen_on">亮屏时指示灯通知</string>
+    <string name="notification_light_zen_mode">免打扰模式指示灯通知</string>
+    <string name="notification_light_use_multiple_leds">多个指示灯</string>
+    <string name="keywords_lights_brightness_level">减低指示灯量度</string>
+    <string name="notification_light_automagic">自动选择颜色</string>
 
     <!-- Lights settings, LED notification -->
-    <string name="leds_category_title">LED Options</string>
-    <string name="battery_light_settings">Battery light</string>
-    <string name="led_notification_title">Light settings</string>
-    <string name="led_notification_text">LED light enabled by settings</string>
-    <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+    <string name="leds_category_title">指示灯设置</string>
+    <string name="battery_light_settings">电池指示灯</string>
+    <string name="led_notification_title">指示灯设置</string>
+    <string name="led_notification_text">指示灯已在设置开启</string>
+    <string name="notification_light_no_apps_summary">增加每个应用程序控制, 激活 \'%1$s\' 并在标题栏按住 \'\u002b\'</string>
 
     <!-- Battery light settings  -->
-    <string name="batterylight_title">Battery LED settings</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_list_title">Colors</string>
-    <string name="battery_light_low_color_title">Battery low</string>
-    <string name="battery_light_medium_color_title">Charging</string>
-    <string name="battery_light_full_color_title">Charged (90%)</string>
-    <string name="battery_light_really_full_color_title">Charged (100%)</string>
-    <string name="edit_battery_settings">Edit battery settings</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="led_color_green">Green</string>
-    <string name="led_color_red">Red</string>
-    <string name="led_color_blue">Blue</string>
+    <string name="batterylight_title">电池指示灯设置</string>
+    <string name="battery_light_enable">开启</string>
+    <string name="battery_low_pulse_title">电量低时闪烁</string>
+    <string name="battery_light_list_title">颜色</string>
+    <string name="battery_light_low_color_title">电量低时</string>
+    <string name="battery_light_medium_color_title">充电时</string>
+    <string name="battery_light_full_color_title">已充电 (90%)</string>
+    <string name="battery_light_really_full_color_title">已充电 (100%)</string>
+    <string name="edit_battery_settings">编辑电池设置</string>
+    <string name="notification_light_general_title">通用</string>
+    <string name="led_color_green">绿色</string>
+    <string name="led_color_red">红色</string>
+    <string name="led_color_blue">蓝色</string>
 
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volume</string>
