@@ -1,38 +1,15 @@
 package com.android.settings.yuanweios;
 
-import android.app.Activity;
-import android.content.ContentResolver;
-import android.content.Context;
+
 import android.content.Intent;
-import android.content.pm.ApplicationInfo;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.pm.ResolveInfo;
-import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Handler;
-import android.preference.ListPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceGroup;
-import android.support.v7.preference.PreferenceScreen;
-import android.support.v7.preference.PreferenceGroupAdapter;
-import android.support.v7.preference.PreferenceViewHolder;
-import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import android.provider.Settings;
-import android.preference.SwitchPreference;
-import android.os.UserHandle;
-import java.util.regex.Matcher;
-import com.android.settings.InstrumentedFragment;
-
-import com.android.internal.logging.MetricsLogger;
-import java.util.Date;
-import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.Utils;
-import java.util.regex.Pattern;
-import android.util.Log;
+import com.android.settings.R;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCatecory;
+
+import com.android.settings.InstrumentedFragment;
 
 public class Maintainers extends SettingsPreferenceFragment
 {
@@ -44,7 +21,7 @@ public class Maintainers extends SettingsPreferenceFragment
 
         addPreferencesFromResource(R.xml.yuanweios_maintainers);
         
-     PreferenceCategory maintainers = (PreferenceCategory)findPreference(KEY_MAINTAINS);
+        PreferenceCategory maintainers = (PreferenceCategory)findPreference(KEY_MAINTAINS);
 
         String[] maintainers_title = getResources().getStringArray(R.array.maintainers_title);
         String[] maintainers_devices = getResources().getStringArray(R.array.maintainers_devices);
@@ -67,13 +44,6 @@ public class Maintainers extends SettingsPreferenceFragment
         }
     }
 
-    @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    
-  
     @Override
     protected int getMetricsCategory() {
         return InstrumentedFragment.YUANWEIOSABOUT;
