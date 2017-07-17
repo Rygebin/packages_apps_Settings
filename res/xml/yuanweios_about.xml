@@ -39,19 +39,25 @@
 	</PreferenceScreen>
 		
 	<!-- Developers -->
-	<PreferenceCategory
+<PreferenceCategory
 	android:key="category_yuanweios_developers"
-	    android:title="@string/developers_people">
-		
-	    <Preference
-	        android:title="jsbeyond"
-	        android:summary="Hello Everybody" />
-		
-	    <Preference
-	        android:title="whyle"
-	        android:summary="Hello Everybody" />
+	android:title="@string/developers_people">
+	<PreferenceScreen
+		android:title="@string/team_1"
+		android:summary="@string/team1_description"
+		android:icon="@drawable/ic_devs" >
+		<intent
+			android:action="android.intent.action.VIEW"
+			android:data="https://forum.xda-developers.com/member.php?u=6674731" />
+	</PreferenceScreen>
+	
+	<PreferenceScreen
+		android:title="@string/team_2"
+		android:summary="@string/team2_description"
+		android:icon="@drawable/ic_devs" >
+	</PreferenceScreen>
 
-	</PreferenceCategory>
+</PreferenceCategory>
 	
 	<!-- Maintains -->
 	<PreferenceCategory
