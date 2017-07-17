@@ -56,12 +56,12 @@
 	<!-- Maintains -->
 	<PreferenceCategory
 	android:key="category_yuanweios_maintains"
-	    android:title="Maintains">
+	    android:title="@string/maintainers">
 		
 	 <PreferenceScreen
 	    android:key="translator"
-	    android:title="@string/changelog_yuanweios_title"
-	    android:fragment="com.android.settings.yuanweios.Maintains" />
+	    android:title="@string/see_maintainers"
+	    android:fragment="com.android.settings.yuanweios.Maintainers" />
 
 	</PreferenceCategory>
 
