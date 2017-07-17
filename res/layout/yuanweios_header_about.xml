@@ -15,8 +15,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
-	android:gravity="center"
-	android:orientation="vertical">
+	android:gravity="center">
 
 	<ImageView
 		android:layout_width="match_parent"
@@ -24,13 +23,5 @@
 		android:layout_marginLeft="2dp"
 		android:layout_marginRight="2dp"
 		android:src="@drawable/yuanweios_header"/>
-
-	<TextView
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:textAppearance="?android:attr/textAppearanceSmall"
-		android:text="yuanwei-rom.github.io"
-		android:gravity="center"
-		android:textColor="#000000"/>
 
 </LinearLayout>
