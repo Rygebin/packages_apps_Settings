@@ -15,10 +15,11 @@
 	    android:title="Maintainers"
 	    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-	<!-- Maintainers -->
+	<!-- Maintains -->
 	<PreferenceCategory
-	android:key="yuanweios_maintainers"
+	    android:key="yuanweios_maintainers"
 	    android:title="@string/maintainers">
+		
 	</PreferenceCategory>
 
 </PreferenceScreen>
