@@ -34,15 +34,15 @@ import com.android.settings.Utils;
 import java.util.regex.Pattern;
 import android.util.Log;
 
-public class YuanweiosAbout extends SettingsPreferenceFragment
+public class Maintainers extends SettingsPreferenceFragment
 {
-    private static final String KEY_MAINTAINS = "yuanweios_maintains";
+    private static final String KEY_MAINTAINS = "yuanweios_maintainers";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.yuanweios_maintains);
+        addPreferencesFromResource(R.xml.yuanweios_maintainers);
         
      PreferenceCategory maintainers = (PreferenceCategory)findPreference(KEY_MAINTAINS);
 
