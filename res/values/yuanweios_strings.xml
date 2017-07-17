@@ -408,4 +408,9 @@
       <string name="maintainers">Maintainers</string>
  <string name="see_maintainers">See all maintainers</string>
   <string name="maintainer_description">Maintainer %1$s</string>
+     <string name="team_1">Jsbeyond (KAOKAO)</string>
+<string name="team1_description">Development</string>
+<string name="team_2">Whyle (Yihao)</string>
+<string name="team2_description">Development</string>
+     
 </resources>
