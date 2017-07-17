@@ -37,7 +37,7 @@
 	        android:action="android.intent.action.VIEW"
 	        android:data="https://www.paypal.me/jsbeyond" />
 	</PreferenceScreen>
-
+		
 	<!-- Developers -->
 	<PreferenceCategory
 	android:key="category_yuanweios_developers"
@@ -52,6 +52,17 @@
 	        android:summary="Hello Everybody" />
 
 	</PreferenceCategory>
+	
+	<!-- Maintains -->
+	<PreferenceCategory
+	android:key="category_yuanweios_maintains"
+	    android:title="Maintains">
 		
+	 <PreferenceScreen
+	    android:key="translator"
+	    android:title="@string/changelog_yuanweios_title"
+	    android:fragment="com.android.settings.yuanweios.Maintains" />
+
+	</PreferenceCategory>
 
 </PreferenceScreen>
