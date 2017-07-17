@@ -142,7 +142,6 @@
     <string name="notification_light_default_value">默认</string>
     <string name="notification_light_missed_call_title">未接电话</string>
     <string name="notification_light_voicemail_title">语音信箱</string>
-    <string name="notification_light_brightness" translatable="false">@string/brightness</string>
     <string name="notification_light_screen_on">亮屏时指示灯通知</string>
     <string name="notification_light_zen_mode">免打扰模式指示灯通知</string>
     <string name="notification_light_use_multiple_leds">多个指示灯</string>
