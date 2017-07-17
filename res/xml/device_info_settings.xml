@@ -17,8 +17,11 @@
 
         <!--Yuanweios header -->
         <PreferenceScreen android:key="yuanweios_header"
-              android:enabled="false"
-              android:layout="@layout/yuanweios_header_about" />
+              android:layout="@layout/yuanweios_header_about" >
+             <intent
+		android:action="android.intent.action.VIEW"
+		android:data="https://yuanwei-rom.github.io/" />
+         </PreferenceScreen>
 
         <PreferenceScreen
                android:key="about_yuanweios"
