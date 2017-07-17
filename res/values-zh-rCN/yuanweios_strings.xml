@@ -403,4 +403,8 @@
 	<string name="keyguard_toggle_torch_summary">关闭屏幕时长按电源键以启用手电筒</string>
 	-->
 	
+	<string name="maintainers">维护</string>
+	<string name="see_maintainers">查看所有维护</string>
+	<string name="maintainer_description">维护%1$s</string>
+	
 </resources>
