@@ -7,7 +7,7 @@ import android.os.Bundle;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCatecory;
+import android.support.v7.preference.PreferenceCategory;
 
 import com.android.settings.InstrumentedFragment;
 
