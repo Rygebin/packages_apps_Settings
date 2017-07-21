@@ -15,15 +15,18 @@
     <!-- Maintainers -->
     <string-array name="maintainers_title" translatable="false">
         <item>jsbeyond</item>
+        <item>Rygebin</item>
     </string-array>
 
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Honor 5x (kiwi)</item> <!-- Maintainer: jsbeyond -->   
+        <item>Android One 3'rd Device (shamrock) </item> <!-- Maintainer: Rygebin -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
     <string-array name="maintainers_url" translatable="false">
         <item>https://forum.xda-developers.com/member.php?u=6674731</item> <!-- Maintainer: jsbeyond (KAOKAO) -->      
-    </string-array>
+        <item>https://forum.xda-developers.com/member.php?u=6922118</item> <!-- Maintainer: Rygebin -->
+   </string-array>
 </resources>
