@@ -21,7 +21,7 @@
     <!-- Devices maintained by maintainer -->
     <string-array name="maintainers_devices" translatable="false">
         <item>Honor 5x (kiwi)</item> <!-- Maintainer: jsbeyond -->   
-        <item>Android One 3'rd Device (shamrock) </item> <!-- Maintainer: Rygebin -->
+        <item>Android One 3\'rd Device (shamrock) </item> <!-- Maintainer: Rygebin -->
     </string-array>
 
     <!-- XDA Profile URL of maintainer -->
